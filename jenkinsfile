@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        go 'golang-13.8'
+        go 'golang'
     }
     
     environment {
